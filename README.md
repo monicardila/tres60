@@ -1,6 +1,6 @@
-# 📦 TREES60 - Aplicación de Gestión e Inventario
+# 📦 TRES60 - Aplicación de Gestión e Inventario
 
-¡Bienvenido/a a TREES60! 🎉 Este proyecto está diseñado para ayudarte a gestionar y controlar tu inventario de manera eficiente y sencilla.
+¡Bienvenido/a a TRES60! 🎉 Este proyecto está diseñado para ayudarte a gestionar y controlar tu inventario de manera eficiente y sencilla.
 
 ## 🚀 Tecnologías Utilizadas
 
@@ -30,4 +30,4 @@ Actualmente, este proyecto se encuentra en la fase de **maquetación**. Estamos 
 
 Para cualquier pregunta o sugerencia, puedes contactarnos en [maardila7310@soy.sena.edu.co](mailto:maardila7310@soy.sena.edu.co).
 
-¡Gracias por tu interés en TREES60! 😊
+¡Gracias por tu interés en TRES60! 😊
