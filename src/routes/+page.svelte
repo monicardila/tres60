@@ -2,24 +2,32 @@
   import "../app.css";
 
   // Buscar aliases sveltekit
-  import imagenProducto from '$lib/assets/iconos/caja.png'
+  import imagenLogo from '$lib/assets/iconos/TRES60.png'
+  import imagenProducto from '$lib/assets/iconos/productos.png'
+  import imagenReportes from '$lib/assets/iconos/reportes.png'
+  import imagenProveedores from '$lib/assets/iconos/proveedores.png'
+  import imagenClientes from '$lib/assets/iconos/clientes.png'
+  import imagenCaja from '$lib/assets/iconos/caja.png'
+  import imagenFacturas from '$lib/assets/iconos/facturas.png'
+
+
 </script>
 <header class="sticky top-0 z-20">
     <div class=" w-full h-16 bg-slate-900 text-slate-100 flex"> 
-        <p>TRES60 logo</p>
+        <img src={imagenLogo} alt="icono" class="pl-5">
         <p><a href="contact" class="absolute top-0  right-60 pt-5"> Contacto</a></p>
         <p><a href="aboutUs" class="absolute top-0  right-32 pt-5"> Nosotros</a></p>   
         <p><a href="login" class="absolute top-0  right-10 pt-5"> Log in</a></p>
     </div>
 </header>
 
-<main class="h-full min-w-96 bg-slate-200  relative">
+<main class="h-full min-w-96 bg-white  relative">
 
     <div class="article">
         <div class="sub-encabezado">
-            <div class="w-full h-96 bg-slate-700 static">
-                <h1 class="text-slate-100 text-7xl text-left font-sans pt-16 pl-10">Control estratégico, <br>resultados tangibles </h1>
-                <h5 class="pl-10 pb-8 pt-5 text-slate-400">Lorem ipsum dolor sit amet consectetures rem aliquid aliquam vel quas explicabo perspiciatis molest <br>iae magnam veniam incidunt velit, nam consectetur iure est voluptas sapiente quisquam.</h5>
+            <div class="w-full h-96 bg-indigo-500 static">
+                <h1 class="text-slate-100 text-7xl text-left font-sans pt-16 pl-10 font">Control estratégico, <br>resultados tangibles </h1>
+                <h5 class="pl-10 pb-8 pt-5 text-black">Lorem ipsum dolor sit amet consectetures rem aliquid aliquam vel quas explicabo perspiciatis molest <br>iae magnam veniam incidunt velit, nam consectetur iure est voluptas sapiente quisquam.</h5>
                 <a href="login" class="absolute top-94 left-10">Ingresar</a>
             </div>
         </div>
@@ -29,30 +37,35 @@
         </div>
         <div class="contenedores-centro"> 
             <div class="grid gap-6 gap-x-6 gap-y-4 grid-cols-3 max-w-4xl m-auto  ">
-                <div class=" shadow-lg bg-slate-100 min-h-60 max-w-xs min-w-42 rounded-3xl text-left">
-                  <img src={imagenProducto} alt="icono">
-                    <h2 class="pt-20 p-5">Inventario - Productos / servicios</h2>
-                    <h4 >Descripcion</h4>
+                <div class=" shadow-lg bg-white min-h-60 max-w-xs min-w-42 rounded-3xl text-left">
+                    <img src={imagenProducto} alt="icono" class="m-auto pt-2">
+                    <h2 class="pt-10 p-5">Inventario - Productos / servicios</h2>
+                    <h4 class="pl-5 text-indigo-700">Leer más...</h4>
                 </div>
-                <div class=" shadow-lg bg-slate-100 min-h-60 max-w-xs min-w-42 rounded-3xl text-left">
-                    <h2 class="pt-20">Reportes - estadisticas</h2>
-                    <h4>Descripcion</h4>
+                <div class=" shadow-lg bg-white min-h-60 max-w-xs min-w-42 rounded-3xl text-left">
+                    <img src={imagenReportes} alt="icono" class="m-auto pt-2">
+                    <h2 class="pt-10 p-5">Reportes - estadisticas</h2>
+                    <h4 class="pl-5 text-indigo-700">Leer más...</h4>
                 </div>
-                <div class=" shadow-lg bg-slate-100 min-h-60 max-w-xs min-w-42 rounded-3xl text-left">
-                    <h2 class="pt-20">Pedidos proveedores</h2>
-                    <h4>Descripcion</h4>
+                <div class=" shadow-lg bg-white min-h-60 max-w-xs min-w-42 rounded-3xl text-left">
+                    <img src={imagenProveedores} alt="icono" class="m-auto pt-2">
+                    <h2 class="pt-10 p-5">Pedidos proveedores</h2>
+                    <h4 class="pl-5 text-indigo-700">Leer más...</h4>
                 </div>
-                <div class=" shadow-lg  bg-slate-100 min-h-60 max-w-xs min-w-42 rounded-3xl text-left">
-                    <h2 class="pt-20">Consultas clientes</h2>
-                    <h4>Descripcion</h4>
+                <div class=" shadow-lg  bg-white min-h-60 max-w-xs min-w-42 rounded-3xl text-left">
+                    <img src={imagenClientes} alt="icono" class="m-auto pt-2">
+                    <h2 class="pt-10 p-5">Consultas clientes</h2>
+                    <h4 class="pl-5 text-indigo-700">Leer más...</h4>
                 </div>
-                <div class="shadow-lg  bg-slate-100 min-h-60 max-w-xs min-w-42 rounded-3xl text-left">
-                    <h2 class="pt-20">Caja registradora</h2>
-                    <h4>Descripcion</h4>
+                <div class="shadow-lg  bg-white min-h-60 max-w-xs min-w-42 rounded-3xl text-left">
+                    <img src={imagenCaja} alt="icono" class="m-auto pt-2">
+                    <h2 class="pt-10 p-5">Caja registradora</h2>
+                    <h4 class="pl-5 text-indigo-700">Leer más...</h4>
                 </div>
-                <div class=" shadow-lg bg-slate-100 min-h-60 max-w-xs min-w-42 rounded-3xl text-left">
-                    <h2 class="pt-20">Facturas</h2>
-                    <h4>Descripcion</h4>
+                <div class=" shadow-lg bg-white min-h-60 max-w-xs min-w-42 rounded-3xl text-left">
+                    <img src={imagenFacturas} alt="icono" class="m-auto pt-2">
+                    <h2 class="pt-10 p-5">Facturas</h2>
+                    <h4 class="pl-5 text-indigo-700">Leer más...</h4>
                 </div>
             </div>
         </div>

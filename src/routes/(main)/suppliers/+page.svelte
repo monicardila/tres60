@@ -1,4 +1,4 @@
-<body class="bg-gray-100 p-10">
+<body class="bg-white p-10">
     <div class="max-w-7xl mx-auto bg-white p-8 shadow-lg rounded-lg">
         <h1 class="text-3xl font-bold mb-6">Pedidos Proveedores</h1>
         <table class="min-w-full bg-white border-collapse border border-gray-300">

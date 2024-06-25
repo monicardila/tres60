@@ -1,13 +1,16 @@
+<script>
+     import imagenLogo from '$lib/assets/iconos/TRES60.png'
+</script>
 <header class="sticky top-0 z-20">
     <div class=" w-full h-16 bg-slate-900 text-slate-100 flex"> 
-        <p>TRES60 logo</p>
+        <img src={imagenLogo} alt="icono" class="pl-5">
         <p><a href="/" class="absolute top-0 right-96 pt-5"> Inicio</a></p>
         <p><a href="contact" class="absolute top-0  right-60 pt-5"> Contacto</a></p>
         <p><a href="aboutUs" class="absolute top-0  right-32 pt-5"> Nosotros</a></p>   
         <p><a href="login" class="absolute top-0  right-10 pt-5"> Log in</a></p>
     </div>
 </header>
-<body class="bg-gray-100 p-10">
+<body class="bg-white p-10">
     <div class="max-w-4xl mx-auto bg-white p-8 shadow-lg rounded-lg">
         <h1 class="text-3xl font-bold mb-6">Contacto</h1>
         <form>
@@ -33,3 +36,35 @@
         </form>
     </div>
 </body>
+
+<footer class=" bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Información General -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4">Sobre Nosotros</h2>
+          <p class="text-sm">Somos una empresa dedicada a la gestión de inventarios, ofreciendo soluciones innovadoras para el manejo de productos, clientes, proveedores y más.</p>
+        </div>
+        <!-- Enlaces Rápidos -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4">Enlaces Rápidos</h2>
+          <ul class="text-sm">
+            <li><a href="aboutUs" class="hover:underline">Sobre Nosotros</a></li>
+            <li><a href="contact" class="hover:underline">Contacto</a></li>
+            <li><a href="login" class="hover:underline">Iniciar Sesión</a></li>
+            <li><a href="register" class="hover:underline">Registrarse</a></li>
+          </ul>
+        </div>
+        <!-- Contacto -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4">Contacto</h2>
+          <p class="text-sm">Email: contacto@tres60.com</p>
+          <p class="text-sm">Teléfono: +34 123 456 789</p>
+          <p class="text-sm">Dirección: Calle Falsa 123, Ciudad, País</p>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <p class="text-sm">&copy; 2024 TRES60. Todos los derechos reservados.</p>
+      </div>
+    </div>
+</footer>
