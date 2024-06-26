@@ -2,12 +2,11 @@
     import imagenLogo from '$lib/assets/iconos/TRES60.png'
 </script>
 <header class="sticky top-0 z-20">
-    <div class=" w-full h-16 bg-slate-900 text-slate-100 flex"> 
+    <div class=" w-full h-14 bg-slate-900 text-slate-100 flex"> 
         <img src={imagenLogo} alt="icono" class="pl-5">
-        <p><a href="/" class="absolute top-0 right-96 pt-5"> Inicio</a></p>
         <p><a href="contact" class="absolute top-0  right-60 pt-5"> Contacto</a></p>
         <p><a href="aboutUs" class="absolute top-0  right-32 pt-5"> Nosotros</a></p>   
-        <p><a href="login" class="absolute top-0  right-10 pt-5"> Log in</a></p>
+        <p><a href="login" class="absolute top-0  right-10 t-2 mt-2 p-2 rounded-lg bg-blue-400 "> Log in</a></p>
     </div>
 </header>
 <body class="bg-white p-10">

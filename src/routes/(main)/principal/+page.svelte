@@ -14,7 +14,7 @@
     <main class="flex-grow container mx-auto p-4 min-h-screen-with-footer">
         <div class="sticky top-0 max-w-7xl h-auto bg-blue-500 mx-auto pt-10  rounded shadow-lg">
             <h1 class="text-3xl font-bold mb-4 pl-5 text-white">Información actual</h1>
-            <h4 class="pb-4 text-right pr-4 absolute top-20 right-5">Agregar</h4>
+            <button class="mb-4 text-right pr-4 pl-4 pb-1 absolute top-20 right-5 bg-stone-950 rounded-xl text-white">Agregar</button>
             <div class="flex items-center justify-center w-full h-96 bg-orange-400 mt-10 rounded">
                 
                 <div class="grid gap-6 gap-x-6 gap-y-4 grid-cols-3 max-w-4xl m-auto  ">
